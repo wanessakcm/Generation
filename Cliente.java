@@ -1,5 +1,7 @@
 package POO;
 
+import javax.xml.crypto.Data;
+
 public class Cliente {
 
 	private String nomeCliente;
@@ -62,8 +64,8 @@ public class Cliente {
 	//declaração de métodos específicos
 	
 	public void imprimirInfo() {
-		System.out.println("\nCliente: "+nomeCliente+"\nReside no logradouro: "+endereco+
-				"\nInscrito(a) no CPF sob o n.º "+cpf+"\nDatade nascimento: "+dataDeNascimento+
+		System.out.println("\nNome: "+nomeCliente+"\nEndereço: "+endereco+
+				"\nInscrito(a) no CPF sob o nº:  "+cpf+"\nData de nascimento: "+dataDeNascimento+
 				"\nNúmero para contato: "+numeroDeTelefone);
 	}
 	
